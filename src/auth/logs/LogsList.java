@@ -26,6 +26,10 @@ public class LogsList {
         }
     }
 
+    public static List<Log> getLogsList() {
+        return logsList;
+    }
+
     public static void addLogToList(Log log) {
         logsList.add(log);
     }
